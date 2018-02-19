@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/input_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/input_contact_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+</LinearLayout>
+    <!--Linearlayout-A layout that arranges other views either horizontally in a single column or vertically in a single row.
+    EditText: AS user can edit the text
+     ID-Any View object may have an integer ID associated with it, to uniquely identify the View within the tree.
+       When the application is compiled, this ID is referenced as an integer, but the ID is typically assigned in the layout XML file
+      as a string, in the id attribute.This is an XML attribute common to all View objects (defined by the View class) and you will use
+                                        it very often
+                                        wrap_content tells your view to size itself to the dimensions required by its content.
+                                        match_parent tells your view to become as big as its parent view group will allow.
+                                        TextSize will give size of the text-->
